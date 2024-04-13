@@ -1,0 +1,170 @@
+/*Font styles*/
+
+@font-face {
+    font-family: 'Hagrid';
+    src: url('assets/hagrid/Hagrid-Regular-trial.ttf') format('truetype'),
+        url('assets/hagrid/Hagrid-Italic-trial.ttf') format('truetype'),
+        url('assets/hagrid/Hagrid-Text-Extrabold-trial.ttf') format('truetype'),
+        url('assets/hagrid/Hagrid-Text-Extrabold-Italic-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hagrid';
+    src: url('assets/hagrid/Hagrid-Regular-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Hagrid';
+    src: url('assets/hagrid/Hagrid-Text-Extrabold-trial.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hagrid';
+    src: url('assets/hagrid/Hagrid-Text-Extrabold-Italic-trial.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Bold\ Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ ExtraBold\ Italic.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Thin.ttf') format('truetype');
+    font-weight: thin;
+}
+
+@font-face {
+    font-family: 'TT_for';
+    src: url('assets/tt_fors/TT\ Fors\ Trial\ Thin\ Italic.ttf') format('truetype');
+    font-weight: thin;
+    font-style: italic;
+}
+
+/*Font styles*/
+
+
+* {
+    font-family: 'TT_for';
+    font-weight: normal;
+    color: #24345A;
+}
+
+h1 {
+    font-size: 7vh;
+}
+
+.a-about-me {
+    height: 100vh;
+    background-color:#FA0644;
+}
+
+.a-btn {
+    background-color: #24345A;
+    color: #FFF4F4;
+    font-weight: bold;
+}
+
+.a-color-red {
+    color: #FA0644;
+}
+
+.a-color-white {
+    color: #FFF4F4;
+}
+
+.a-font-hagrid {
+    font-family: 'hagrid';
+}
+
+.a-font-hagrid-bold {
+    font-family: 'hagrid';
+    font-weight: bold;
+}
+
+.a-icon img {
+    max-height: 28vh;
+}
+
+.a-home {
+    height: 100vh;
+}
+
+.a-logo {
+    font-family: 'hagrid';
+    font-weight: bold;
+    font-size: large;
+    line-height: 90%;
+}
+
+.a-page {
+    background: rgb(255, 229, 229);
+    background: linear-gradient(164deg, rgba(255, 229, 229, 1) 8%, rgba(255, 244, 244, 1) 93%);
+}
+
+.a-p-bold {
+    font-weight: bold;
+    margin: 0;
+}
+
+.a-ps-8 {
+    padding-left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+

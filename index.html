@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Andrieli Liebl</title>
+</head>
+
+<body>
+    <section class="a-page">
+
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand a-logo a-color-red" href="#">Andrieli <br>Liebl</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="d-flex justify-content-end">
+                        <button id="closeMenuBtn" class="btn d-lg-none"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                    <div class="navbar-nav ms-auto ">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Sobre mim</a>
+                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="#">Portfólio</a>
+                        <a class="nav-link" href="#">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="a-home d-flex align-items-center">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="col-12 offset-lg-2 col-lg-5 ps-5">
+                    <div class="flex-column">
+                        <p class="pb-2 a-p-bold">Do marketing à programação:</p>
+                        <h1 class="a-color-red a-font-hagrid">Transformo ideias <br> criativas em <br>
+                            <spam class="a-color-red a-font-hagrid-bold">realidade digital</spam>
+                        </h1>
+                        <button type="button" class="btn a-btn mt-2">ENTRE EM CONTATO</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="flex-column align-items-center">
+                        <div class="a-icon">
+                            <img src="assets/icon_megafone.png">
+                        </div>
+                        <div class="a-icon a-ps-8">
+                            <img src="assets/icon_notebook.png">
+                        </div>
+                        <div class="a-icon">
+                            <img src="assets/icon_lampada.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="a-about-me d-flex align-items-center">
+            <div class="container-fluid d-flex align-items-start">
+                <div class="col-12 offset-lg-2 col-lg-6 ps-5">
+                    <div class="flex-column">
+                        <h1 class="a-strong a-color-white a-font-hagrid-bold pb-5">Sobre mim
+                        </h1>
+                        <p class="a-color-white fs-5">
+                            Sou Andrieli Liebl, uma marketeira que resolveu escrever um “plot-twist” <br> 
+                            na própria carreira e investir na área de desenvolvimento de sistemas.<br>
+                            <br>
+
+                            Com paixão por desafios criativos e a necessidade de aprender constantemente, <br>
+                            passei o último ano desenvolvendo hard skills da programação, como: <br>
+                            HTML, CSS, JavaScript, Bootstrap, Angular, React e Java.
+                            <br>
+                            <br>
+
+                            Estou empolgada para combinar minhas antigas habilidades com <br>
+                            o que tenho aprendido e gerar resultados incríveis.<br>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="flex-column align-items-center">
+                        <div class="a-pe-8">
+                            <img src="assets/sobre_mim.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </section>
+
+
+
+
+
+
+
+    <script>
+        document.getElementById('closeMenuBtn').addEventListener('click', function () {
+            document.querySelector('.navbar-collapse').classList.remove('show');
+        });
+
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(function (item) {
+            item.addEventListener('click', function () {
+                document.querySelector('.navbar-collapse').classList.remove('show');
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
