@@ -96,10 +96,6 @@
     color: #24345A;
 }
 
-h1 {
-    font-size: 7vh;
-}
-
 .a-about-me {
     height: 100vh;
     background-color:#FA0644;
@@ -129,7 +125,7 @@ h1 {
 }
 
 .a-icon img {
-    max-height: 28vh;
+    max-height: 24vh;
 }
 
 .a-home {
@@ -157,14 +153,44 @@ h1 {
     padding-left: 10vw;
 }
 
+/* Small devices */
+@media (max-width: 575px) {
+    .a-icon img {
+        max-height: 10vh;
+    }
+
+}
+
+/* Medium devices */
+@media (min-width: 576px) and (max-width: 767px) {
+    .a-icon img {
+        max-height: 10vh;
+    }
+
+}
+
+/* Large devices */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .a-icon img {
+        max-height: 15vh;
+    }
+
+}
+
+/* X-Large devices */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .a-icon img {
+        max-height: 20vh;
+    }
+
+}
+
+/* XX-Large devices */
+@media (min-width: 1400px) {
+
+    .a-icon img {
+        max-height: 20vh;
+    }
 
 
-
-
-
-
-
-
-
-
-
+}
