@@ -158,7 +158,7 @@
 }
 
 .a-services {
-    height: 100vh;
+    height: auto;
 }
 
 .a-section-title {
@@ -174,9 +174,8 @@
 }
 
 .a-partners {
-    height: 100vh;
+    padding: 10vh 0 10vh 0;
 }
-
 
 .company-logos {
     overflow: hidden;
